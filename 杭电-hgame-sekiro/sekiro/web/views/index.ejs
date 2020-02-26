@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sekiro</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link href="https://img.kev1n.top/css/bootstrap4.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main-app">
+    <div class="title">
+      <h1 class="title-text">Sekiro</h1>
+    </div>
+    <div class="main-card">
+      <div id="alive">
+        <div class="alert alert-secondary" id="info"></div>
+        <div class="img-area">
+          <img class="img" src="images/Ashina.png">
+        </div>
+        <div id="attack-info"></div>
+        <div class="select">
+          <div class="tips">你的应对是：</div>
+          <select class="form-control" id="select-panel">
+            <option>格挡</option>
+            <option>跳跃踩头</option>
+            <option>连续格挡</option>
+            <option>识破</option>
+            <option>雷反</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-secondary" id="submit">提交</button>
+      </div>
+      <div id="dead" style="display: none;">
+        <div class="dead-info">你死了.</div>
+        <div class="img-area">
+          <img class="img" src="images/die.png">
+        </div>
+        <button type="button" class="btn btn-secondary" id="retry">回生</button>
+      </div>
+      <div class="empty"></div>
+    </div>
+    <div class="footer">© HGAME 2020</div>
+  </div>
+</body>
+
+</html>
+<script src="https://img.kev1n.top/js/jquery.min.js"></script>
+<script src="javascripts/script.js"></script>

@@ -1,0 +1,100 @@
+.main-card{
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  width: 600px;
+  margin-top: 25px;
+  border-radius: 10px;
+  -moz-box-shadow:4px 7px 14px #a3a3a345;
+  -webkit-box-shadow:4px 7px 14px #a3a3a345;
+  box-shadow:4px 7px 14px #a3a3a345;
+  background: white;
+}
+html{
+  background: #f4f4f6;
+}
+body{
+  background: #f4f4f6 !important;
+}
+.main-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  border-top: 2px solid #eee;
+  margin: 20px;
+  width: 600px;
+  text-align: center;
+  color: #777777;
+}
+
+.title{
+  margin-top: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2px solid #eee;
+}
+.title-text{
+  color: #777;
+}
+
+.empty{
+  display: flex;
+  flex: 1;
+}
+.btn{
+  margin-left: 20px;
+}
+#info{
+  width: 400px;
+  box-sizing: content-box;
+  margin: 20px auto;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.select{
+  width: 200px;
+  margin: 20px auto;
+}
+.img{
+  width: 300px;
+}
+.img-area{
+  margin: 10px auto;
+  width: 300px;
+}
+#attack-info{
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+.tips{
+  text-align: center;
+  margin-bottom: 20px;
+}
+#submit{
+  margin: 0 auto;
+  width: 150px;
+  margin-bottom: 20px;
+}
+#alive{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#dead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dead-info{
+  font-size: 17px;
+  text-align: center;
+  margin: 30px;
+}
